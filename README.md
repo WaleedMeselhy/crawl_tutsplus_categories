@@ -1,6 +1,6 @@
 # crawl tutsplus categories
-Using scrapy to crawl all articles of all categories in tutsplus
-
+* Using scrapy to crawl all articles of all categories in tutsplus
+* Using UserAgentRotatorMiddleware to set user agent of request from random list of user agents to avoid getting banned
 ## sample output
 ```json
 [
