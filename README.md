@@ -18,3 +18,17 @@
     }
 ]
 ```
+
+## Run
+
+```sh
+$ cd crawl_tutsplus_categories
+$ scrapy crawl tutsplus -o output.json
+```
+
+or run in docker container
+
+```sh
+$ docker build . -t tutsplus
+$ docker run -it tutsplus 
+```
