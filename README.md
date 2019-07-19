@@ -2,6 +2,7 @@
 Using scrapy to crawl all articles of all categories in tutsplus
 
 ## sample output
+```json
 [
     {
         "title": "Options for SSL in WordPress",
@@ -16,3 +17,4 @@ Using scrapy to crawl all articles of all categories in tutsplus
         "user-agent": "agent_2"
     }
 ]
+```
